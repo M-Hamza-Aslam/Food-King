@@ -1,0 +1,22 @@
+.rootdiv {
+  height: 70vh;
+}
+.orders {
+  margin-top: 24px;
+  margin-bottom: 70px;
+}
+.orders > h1 {
+  color: white;
+  margin-bottom: 10px;
+}
+.orders > div {
+  padding: 1rem;
+  background-color: #1d1816;
+  border-radius: 8px;
+}
+.orders > div > p {
+  margin-bottom: 0px;
+  color: white;
+  font-size: 1rem;
+  text-align: center;
+}
