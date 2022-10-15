@@ -7,6 +7,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 110px;
 }
 .nonActiveCard {
   border: 4px solid #d36b00;
@@ -27,8 +28,8 @@ div.card > img {
   height: 123px;
 }
 /* on selecting partucular category */
-div.card {
-  width: 190px;
+div.hide {
+  width: 170px;
 }
 div.hide > img {
   display: none;
@@ -46,9 +47,9 @@ div.hide > h6 {
     margin-top: 0.3rem;
     margin-bottom: 0;
   }
-  div.card {
+  /* div.card {
     width: 145px;
-  }
+  } */
   div.hide > h6 {
     /* font-size: 1.2rem; */
     margin: 0.7rem 1.3rem;
