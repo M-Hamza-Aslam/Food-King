@@ -1,0 +1,35 @@
+.profile > button {
+  padding: 1rem;
+  border-radius: 50%;
+  font-weight: bold;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.profile > button::after {
+  display: none;
+}
+.menu {
+  background-color: #1d1816 !important;
+}
+.menu > hr {
+  background-color: #d4d4d4;
+  width: 80%;
+  margin: 5px auto;
+}
+.menu > a {
+  text-decoration: none;
+}
+.menu > * button,
+.menu > button {
+  color: #d4d4d4;
+  background-color: transparent !important;
+  margin: 8px 0px;
+}
+.menu > * svg {
+  font-size: 1.32rem;
+  color: #d36b00;
+  margin-right: 8px;
+}

@@ -1,0 +1,28 @@
+/* .spinDiv {
+  z-index: 480;
+  width: 100vw;
+  height: 100vh;
+} */
+
+.textCenter {
+  width: 100%;
+  position: relative;
+  height: 100%;
+}
+
+/* .spinnerBorder {
+  display: block;
+  position: fixed;
+  top: calc(50% - (58px / 2));
+  right: calc(50% - (58px / 2));
+  color: red;
+} */
+
+.backdrop {
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 999;
+  background-color: rgba(255, 255, 255, 0.4);
+}

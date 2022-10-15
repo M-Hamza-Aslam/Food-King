@@ -1,0 +1,54 @@
+.paymentDiv > h6 {
+  color: white;
+  font-weight: bold;
+  font-size: 1.3rem;
+  margin-bottom: 1.5rem !important;
+}
+.radioBtnDiv > div {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+  color: white;
+}
+.radioBtnDiv > div > input {
+  margin-top: 3px;
+  margin-right: 1rem;
+}
+.radioBtnDiv > div > input:after {
+  width: 20px;
+  height: 20px;
+  border-radius: 15px;
+  top: -2px;
+  left: -1px;
+  position: relative;
+  background-color: #1d1816;
+  content: "";
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid white;
+  cursor: pointer;
+}
+.radioBtnDiv > div > input:checked:after {
+  width: 20px;
+  height: 20px;
+  border-radius: 15px;
+  top: -2px;
+  left: -1px;
+  position: relative;
+  background-color: #d36b00;
+  content: "";
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid white;
+}
+.radioBtnDiv > div > label > h6 {
+  font-weight: bold;
+  margin-bottom: 5px !important;
+}
+.disabled > input::after {
+  border: 2px solid rgba(255, 255, 255, 0.342) !important;
+  cursor: default !important;
+}
+.disabled > label {
+  color: rgba(255, 255, 255, 0.342);
+}

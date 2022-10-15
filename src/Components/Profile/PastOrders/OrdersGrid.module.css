@@ -1,0 +1,7 @@
+.orderGrid {
+  display: flex;
+  overflow: auto;
+  gap: 2rem;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}

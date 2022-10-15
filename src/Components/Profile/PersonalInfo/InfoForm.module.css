@@ -1,0 +1,48 @@
+.rootDiv {
+  margin-top: 1rem;
+}
+.formInputs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.inputComp {
+  width: 40%;
+}
+.inputComp > select,
+.inputComp > input {
+  background-color: #474646;
+  color: white;
+}
+.inputComp > label {
+  padding-left: 5px;
+  color: rgba(255, 255, 255, 0.562);
+}
+@media screen and (max-width: 576px) {
+  .formInputs {
+    flex-direction: column;
+  }
+  .inputComp {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+}
+.formButtons {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: flex-end;
+}
+.formButtons > button {
+  padding: 0.5rem 2rem;
+  font-weight: bold;
+}
+.cancelButton {
+  margin-right: 1rem;
+  background-color: transparent !important;
+  border-color: white !important;
+}
+.cancelButton:hover {
+  background-color: transparent !important;
+  border-color: #d36b00 !important;
+  color: #d36b00 !important;
+}

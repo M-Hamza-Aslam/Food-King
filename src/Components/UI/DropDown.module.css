@@ -1,0 +1,18 @@
+.dropdown {
+  padding: 2rem;
+  background-color: #1d1816;
+  border-radius: 8px;
+  color: white;
+  margin: 16px 0px;
+}
+.dropdownheading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.5rem;
+  cursor: pointer;
+  font-weight: bold;
+}
+.dropdownheading > svg {
+  color: #d36b00 !important;
+}

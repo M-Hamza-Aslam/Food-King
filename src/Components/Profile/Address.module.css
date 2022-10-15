@@ -1,0 +1,52 @@
+.mainDiv {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0;
+}
+.addressDiv {
+  display: flex;
+}
+.addressDiv > svg {
+  color: #d36b00;
+  font-size: 1.5rem;
+  min-width: 1.5rem;
+}
+.addressInfo {
+  margin-left: 0.5rem;
+}
+.addressInfo > h6 {
+  margin-bottom: 0;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.addressInfo > p {
+  margin-bottom: 0;
+  margin-top: 0.5rem;
+  font-size: 1rem;
+}
+.btnDiv {
+  align-self: flex-end;
+}
+.btnDiv > button {
+  background-color: transparent !important;
+  border: transparent !important;
+  color: #d36b00;
+}
+.btnDiv > button:hover {
+  background-color: transparent !important;
+  border: transparent !important;
+  color: #d36900c4 !important;
+}
+.btnDiv > button > svg {
+  margin-bottom: 3px;
+  margin-right: 5px;
+  font-size: 1.3rem;
+}
+@media screen and (max-width: 768px) {
+  .mainDiv {
+    display: block;
+  }
+  .btnDiv {
+    margin-top: 5px;
+  }
+}

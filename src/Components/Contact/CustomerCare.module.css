@@ -1,0 +1,23 @@
+.custCareMainDIv {
+  width: 49%;
+}
+.custCareDiv {
+  color: white;
+}
+.custCareDiv > div > svg {
+  color: #d36b00;
+  font-size: 1.3rem;
+  margin-right: 10px;
+}
+.custCareDiv > div > span {
+  font-weight: bold;
+}
+.custCareDiv > p {
+  margin-top: 5px;
+  color: #d4d4d4;
+}
+@media screen and (max-width: 768px) {
+  .custCareMainDIv {
+    width: 100%;
+  }
+}

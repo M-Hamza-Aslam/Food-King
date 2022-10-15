@@ -1,0 +1,55 @@
+.formDiv {
+  background-color: #1d1816;
+  border-radius: 8px;
+  /* margin: 2rem 0rem; */
+  padding: 2rem 1rem 1rem 1rem;
+}
+.instructionform {
+  display: flex;
+  flex-direction: column;
+}
+.instructionform > textarea {
+  background-color: #474646 !important;
+  color: white !important;
+}
+.instructionform > textarea::placeholder {
+  color: rgba(255, 255, 255, 0.562);
+}
+.checkDiv {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0rem 2rem 0rem !important;
+}
+.checkDiv > p {
+  color: rgba(255, 255, 255, 0.562);
+}
+.checkbox > input {
+  background-color: transparent;
+  border: 2px solid #d36b00 !important;
+  width: 1.2rem;
+  height: 1.2rem;
+}
+.checkbox > input:checked {
+  background-color: #d36b00 !important;
+}
+.checkbox > label {
+  color: white;
+  font-weight: bold;
+}
+.doneMsg {
+  color: #d36b00;
+}
+.doneMsg > svg {
+  font-size: 1.3rem;
+  margin-right: 5px;
+}
+.doneBtn {
+  background-color: transparent !important;
+  border: 2px solid white !important;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+.doneBtn:hover {
+  background-color: #474646 !important;
+  border: 2px solid white !important;
+}

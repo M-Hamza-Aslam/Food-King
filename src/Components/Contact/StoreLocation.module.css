@@ -1,0 +1,49 @@
+.storeInfo {
+  color: white;
+}
+.storeInfo > h6 {
+  font-weight: bold;
+  height: 40px;
+}
+.numberDiv {
+  margin: 1rem 0;
+}
+.addressDiv {
+  margin-top: 1rem;
+}
+.numberDiv > div > svg,
+.addressDiv > div > svg {
+  color: #d36b00;
+  font-size: 1.3rem;
+  margin-right: 10px;
+}
+.numberDiv > div > span,
+.addressDiv > div > span {
+  font-weight: bold;
+}
+.numberDiv > p,
+.addressDiv > p {
+  margin-top: 5px;
+  color: #d4d4d4;
+}
+
+@media screen and (max-width: 1400px) {
+  .storeInfo {
+    width: 310px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .storeInfo {
+    width: 250px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .storeInfo {
+    width: 170px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .storeInfo {
+    width: auto;
+  }
+}

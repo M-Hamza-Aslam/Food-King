@@ -1,0 +1,23 @@
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.ItemsGrid {
+  flex-grow: 1;
+  margin-right: 2rem;
+}
+.total {
+  min-width: 30%;
+}
+@media screen and (max-width: 992px) {
+  .main {
+    display: block;
+  }
+  .ItemsGrid {
+    margin-right: 0;
+  }
+  .total {
+    margin-top: 2rem;
+  }
+}

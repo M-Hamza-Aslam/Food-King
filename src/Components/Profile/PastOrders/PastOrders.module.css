@@ -1,0 +1,19 @@
+.PastOrders {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem 0;
+}
+.PastOrders > h1 {
+  color: white;
+  font-weight: 700;
+  margin-bottom: 0px;
+}
+.PastOrders > a {
+  text-decoration: none;
+}
+.PastOrders > a > p {
+  margin-bottom: 0px;
+  color: #d36b00;
+  cursor: pointer;
+}

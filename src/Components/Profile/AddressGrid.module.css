@@ -1,0 +1,16 @@
+.newAddress {
+  background-color: transparent !important ;
+  border: transparent !important;
+  color: #d36b00 !important;
+  padding-left: 0 !important;
+}
+.newAddress:hover {
+  background-color: transparent !important ;
+  border: transparent !important;
+  color: #d36900c4 !important;
+}
+.newAddress > svg {
+  margin-bottom: 3px;
+  margin-right: 5px;
+  font-size: 1.3rem;
+}

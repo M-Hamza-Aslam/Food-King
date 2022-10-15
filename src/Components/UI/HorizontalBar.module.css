@@ -1,0 +1,25 @@
+.hrbar > h1 {
+  color: white !important;
+  display: flex;
+  flex-direction: row;
+  font-family: "Vollkorn", serif;
+  color: #d3d3d3 !important;
+}
+.hrbar > h1::after {
+  color: #3f3f3f;
+  content: "";
+  flex: 1 1;
+  border-bottom: 2px solid;
+  margin: auto 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .hrbar > h1 {
+    font-size: 2rem;
+  }
+}
+@media screen and (min-width: 0px) and (max-width: 768px) {
+  .hrbar > h1 {
+    font-size: 1.125rem;
+  }
+}

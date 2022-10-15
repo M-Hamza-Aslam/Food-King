@@ -1,0 +1,93 @@
+.footer {
+  background-color: #1d1816;
+  margin-top: 55px;
+}
+.logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.verticalbar {
+  width: 1px;
+  height: 45px;
+  margin: 0 32px;
+  background-color: white;
+  display: none;
+}
+.social {
+  color: #d4d4d4;
+  margin-bottom: 15px;
+}
+.social > p {
+  text-align: center;
+  margin-bottom: 1rem !important;
+}
+.social > * svg {
+  background-color: white;
+  padding: 8px;
+  border-radius: 50%;
+  font-size: 46px;
+  margin-right: 24px;
+}
+.info {
+  display: flex;
+  flex-wrap: wrap;
+}
+.info > * button {
+  background-color: transparent !important;
+  border: none !important;
+  color: #d4d4d4;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+.info > * button:hover {
+  background-color: transparent !important;
+  border: none !important;
+  text-decoration: underline;
+  color: #d4d4d4;
+  cursor: pointer;
+}
+.info > * h6 {
+  font-size: 20px;
+  font-weight: 900;
+  color: white;
+  margin-bottom: 1rem !important;
+}
+.info > div {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px;
+}
+.buttonDiv > img {
+  cursor: pointer;
+}
+
+@media screen and (min-width: 992px) {
+  .footer {
+    padding-bottom: 80px;
+  }
+  .info > div {
+    width: 25%;
+  }
+  .logo {
+    flex-direction: row;
+  }
+  .verticalbar {
+    display: block;
+  }
+  .social > p {
+    text-align: start;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .footer {
+    padding-bottom: 80px;
+  }
+  .info > div {
+    width: 33.33%;
+    flex-grow: 0;
+  }
+}

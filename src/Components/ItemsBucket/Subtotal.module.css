@@ -1,0 +1,12 @@
+.subtotalDiv {
+  background-color: #1d1816;
+  border-radius: 8px;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 0;
+}
+.subtotalDiv > h6 {
+  color: white;
+  margin-bottom: 0;
+}

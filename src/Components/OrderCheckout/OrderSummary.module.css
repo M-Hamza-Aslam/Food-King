@@ -1,0 +1,23 @@
+.summary {
+  background-color: #1d1816;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+.summary > h6 {
+  color: white;
+  font-size: 1.3rem;
+  font-weight: bold;
+  padding: 1.5rem;
+}
+.cartGrid {
+  padding: 0 0.5rem;
+}
+.instructions > h6 {
+  color: white;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.instructions > p {
+  color: white;
+  margin-top: 1rem;
+}

@@ -1,0 +1,75 @@
+.modal {
+  min-width: 300px !important;
+}
+.modalTitle {
+  flex-grow: 1;
+  font-weight: bold;
+  color: #d3d3d3;
+}
+.modalTitle + button {
+  margin: 0;
+  opacity: 1;
+}
+.pencilIcon {
+  font-size: 25px;
+}
+.modal > div.modal-content {
+  background-color: black;
+}
+.locationInput {
+  background-color: #474646 !important;
+  color: white !important;
+  text-overflow: ellipsis;
+}
+input.locationInput::placeholder {
+  color: rgba(255, 255, 255, 0.562);
+}
+div.tagLocation {
+  display: flex;
+  align-items: center;
+  margin-top: 1.5rem;
+  gap: 1rem;
+}
+div.tagLocation > p {
+  font-size: 0.8rem;
+}
+.tagBtnDiv {
+  display: flex;
+  gap: 1rem;
+}
+.tagBtnDiv > button > h5 {
+  font-size: 0.8rem;
+}
+.btnNonActive {
+  display: flex !important;
+  align-items: center;
+  background-color: #474646 !important;
+  border: #474646 !important;
+}
+.btnActive {
+  display: flex !important;
+  align-items: center;
+  background-color: #d36b00 !important;
+  border: #d36b00 !important;
+}
+button.btnNonActive > svg {
+  display: none;
+}
+.inputInvalid {
+  border: 3px solid #d36b00;
+}
+.inputInvalid::placeholder {
+  color: #d36b00 !important;
+}
+.invalidtext {
+  color: #d36b00;
+}
+@media screen and (max-width: 576px) {
+  div.tagLocation {
+    display: block;
+  }
+  .tagBtnDiv {
+    margin-top: 1rem;
+    flex-wrap: wrap;
+  }
+}

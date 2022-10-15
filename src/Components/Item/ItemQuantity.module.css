@@ -1,0 +1,36 @@
+div.quantity {
+  display: flex;
+  align-items: center;
+}
+div.quantity > p {
+  margin: 0px 5px;
+}
+.icon {
+  background-color: transparent !important;
+  padding: 0 !important;
+  border: none !important;
+}
+.icon:hover {
+  background-color: transparent !important;
+  border: none;
+}
+.icon > svg {
+  color: #d36b00;
+  cursor: pointer;
+}
+@media screen and (min-width: 768px) {
+  div.quantity > p {
+    font-size: 1.4993rem;
+  }
+  .icon > svg {
+    font-size: 1.6rem;
+  }
+}
+@media screen and (min-width: 0px) and (max-width: 768px) {
+  div.quantity > p {
+    font-size: 1rem;
+  }
+  .icon > svg {
+    font-size: 1.2rem;
+  }
+}

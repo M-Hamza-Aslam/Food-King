@@ -1,0 +1,42 @@
+.mainDiv {
+  display: flex;
+  justify-content: space-between;
+}
+.leftDiv {
+  width: 64%;
+}
+.rightDiv {
+  width: 33.33%;
+}
+.btnDiv {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 2%;
+}
+.btnDiv > button {
+  width: 20%;
+}
+.closeBtn {
+  background-color: transparent !important;
+  border-color: white !important;
+}
+.closeBtn:hover {
+  background-color: #474646 !important;
+  border-color: white !important;
+}
+@media screen and (max-width: 992px) {
+  .mainDiv {
+    display: block;
+  }
+  .leftDiv {
+    width: auto;
+  }
+  .rightDiv {
+    width: auto;
+    margin-top: 2rem;
+  }
+  .btnDiv > button {
+    width: 49%;
+  }
+}

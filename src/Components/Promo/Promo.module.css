@@ -1,0 +1,22 @@
+.rootdiv {
+  height: 70vh;
+}
+.promo {
+  margin-top: 24px;
+  margin-bottom: 70px;
+}
+.promo > h1 {
+  color: white;
+  margin-bottom: 10px;
+}
+.promo > div {
+  padding: 1rem;
+  background-color: #1d1816;
+  border-radius: 8px;
+}
+.promo > div > p {
+  margin-bottom: 0px;
+  color: white;
+  font-size: 1rem;
+  text-align: center;
+}

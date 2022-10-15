@@ -1,0 +1,45 @@
+.header {
+  background-color: black;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.locationIcon,
+.dropDownIcon {
+  font-size: 25px;
+}
+.logo {
+  background: no-repeat url("../../images/FoodKingLogo.png");
+  background-size: contain;
+  width: 80px;
+  height: 80px;
+  text-decoration: none;
+}
+.logo > * h5 {
+  display: none;
+  text-decoration: none;
+}
+@media screen and (max-width: 420px) {
+  .logo {
+    background: none;
+    width: auto;
+    height: auto;
+  }
+  .logo > * h5 {
+    display: block;
+    font-family: "Vollkorn", serif;
+    font-weight: 900 !important;
+  }
+}
+.addressbtn > h5 {
+  max-width: 200px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-size: 1rem;
+}
+@media screen and (max-width: 768px) {
+  .addressbtn > h5 {
+    font-size: 0.75rem;
+  }
+}

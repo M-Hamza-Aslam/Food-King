@@ -1,0 +1,16 @@
+.cartbtn {
+  background-color: transparent !important;
+  border: none;
+  width: 34px;
+  background: url("../../../public/icons8-shopping-bag-34.png") no-repeat;
+}
+.cartbtn:hover {
+  background-color: transparent !important;
+  border-color: transparent !important;
+}
+.cartbtn > h5 {
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 4px 1px 4px 0px;
+  margin-bottom: 0 !important;
+}

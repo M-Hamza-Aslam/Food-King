@@ -1,0 +1,55 @@
+.offcanvas {
+  background-color: black !important;
+  color: white !important;
+  min-width: 350px;
+}
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+.title + button {
+  opacity: 1;
+}
+.leftDiv {
+  display: flex;
+  align-items: center;
+}
+.rightDiv {
+  display: flex;
+  margin-right: 1rem;
+}
+.leftDiv > h3,
+.rightDiv > h3 {
+  margin-bottom: 0px;
+  margin-left: 0.5rem;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+.body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.emptyCart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.emptyCart > svg {
+  font-size: 6rem;
+  color: #d4d4d4;
+}
+.emptyCart > p {
+  margin-top: 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #d4d4d4;
+}
+.footer > a > button {
+  width: 100%;
+  font-weight: bold;
+  margin-top: 1rem;
+}

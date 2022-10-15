@@ -1,0 +1,40 @@
+.login {
+  background-color: #1d1816;
+  border-radius: 12px;
+  display: flex;
+  width: 930px;
+  margin: 70px auto;
+  padding: 20px;
+}
+.login > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  max-width: 465px;
+  width: 465px;
+  flex-grow: 1;
+}
+@media screen and (max-width: 992px) {
+  .login {
+    flex-direction: row;
+    align-items: center;
+    margin: 70px 0px;
+    width: 100%;
+  }
+  .login > div {
+    max-width: 50%;
+    width: 50%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .login {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0;
+  }
+  .login > div {
+    max-width: 100%;
+    width: 100%;
+  }
+}

@@ -1,0 +1,46 @@
+.dropdown {
+  background-color: #1d1816;
+  border-radius: 8px;
+  color: white;
+  margin: 2rem 0px;
+}
+.dropdownheading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.3rem;
+  cursor: pointer;
+  font-weight: bold;
+}
+.dropdownheading > div > svg {
+  margin-left: 1rem;
+  font-size: 2rem;
+  color: #d36b00 !important;
+}
+.firstTwoSavedAddress {
+  display: flex;
+  justify-content: flex-start;
+  gap: 2%;
+}
+.firstTwoSavedAddress > div {
+  width: 49%;
+}
+.addressGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2%;
+}
+.addressGrid > div {
+  width: 49%;
+}
+@media screen and (max-width: 768px) {
+  .firstTwoSavedAddress {
+    display: block;
+  }
+  .dropdownheading {
+    font-size: 0.8rem;
+  }
+  .addressGrid {
+    display: block;
+  }
+}

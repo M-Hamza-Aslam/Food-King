@@ -1,0 +1,27 @@
+.circle {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  background-color: #d36b00;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nonactivecircle {
+  background-color: #d36b005c;
+}
+.contentDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 62px;
+}
+.label {
+  margin-top: 1rem;
+  color: white;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+.nonactivelabel {
+  color: #ffffff5c;
+}

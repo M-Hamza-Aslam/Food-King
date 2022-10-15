@@ -1,0 +1,24 @@
+.mainDiv {
+  margin: 3rem 0 6rem 0;
+}
+.heading {
+  color: white;
+  font-weight: 700;
+  margin-bottom: 0px;
+}
+.storeAddress {
+  display: flex;
+  gap: 2rem;
+}
+.storeContact {
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (max-width: 768px) {
+  .storeAddress {
+    display: block;
+  }
+  .storeContact {
+    display: block;
+  }
+}

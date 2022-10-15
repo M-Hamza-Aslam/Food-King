@@ -1,0 +1,12 @@
+.input {
+  background-color: #474646 !important;
+  color: white !important;
+  text-overflow: ellipsis;
+  cursor: text;
+}
+input.input::placeholder {
+  color: rgba(255, 255, 255, 0.562);
+}
+.otpMsg {
+  margin-left: 5px;
+}

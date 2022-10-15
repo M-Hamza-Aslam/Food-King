@@ -1,0 +1,38 @@
+.input {
+  background-color: #474646 !important;
+  color: white !important;
+  text-overflow: ellipsis;
+  cursor: text;
+  max-width: 50%;
+}
+.inputLabel {
+  margin-bottom: 1rem;
+  color: white;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+input.input::placeholder {
+  color: rgba(255, 255, 255, 0.562);
+}
+.inputInvalid {
+  border: 3px solid #d36b00;
+}
+.inputInvalid::placeholder {
+  color: #d36b00 !important;
+}
+.invalidtext {
+  color: #d36b00;
+}
+.notice {
+  color: rgba(255, 255, 255, 0.562);
+}
+.notice {
+  margin-top: 1rem;
+}
+.notice > svg {
+  margin-right: 5px;
+  font-size: 1.2rem;
+}
+.notice > span {
+  font-size: 14px;
+}

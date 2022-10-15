@@ -1,0 +1,41 @@
+.input {
+  background-color: #474646 !important;
+  color: white !important;
+  text-overflow: ellipsis;
+  cursor: text;
+}
+input.input::placeholder {
+  color: rgba(255, 255, 255, 0.562);
+}
+.inputInvalid {
+  border: 3px solid #d36b00;
+}
+.inputInvalid::placeholder {
+  color: #d36b00 !important;
+}
+.invalidtext {
+  color: #d36b00;
+}
+.googleicon {
+  background-color: white;
+  padding: 5px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.hrline {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid white;
+  line-height: 0.1em;
+  margin: 10px 0 20px;
+}
+.hrline span {
+  background-color: #1d1816;
+  color: white;
+  padding: 0 10px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.otpMsg {
+  margin-left: 5px;
+}

@@ -1,0 +1,49 @@
+.order {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 170px;
+}
+.body > p {
+  text-align: center;
+}
+.body > hr {
+  margin: 0.5rem 0;
+}
+.orderItemsGrid {
+  height: 105px;
+  overflow: auto;
+}
+.orderItem {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+  width: 170px;
+}
+
+.orderItem > img {
+  width: 24px;
+  height: 24px;
+}
+.orderItem > h6 {
+  font-size: 13px;
+  align-self: center;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer > h6 {
+  font-weight: bold;
+}
+.footer > p {
+  color: #d36b00;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+.footer > p > svg {
+  font-size: 1rem;
+  margin-right: 5px;
+}

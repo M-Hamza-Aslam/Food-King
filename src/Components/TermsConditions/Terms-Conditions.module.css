@@ -1,0 +1,18 @@
+.terms {
+  color: white;
+  margin: 3rem 0 6rem 0;
+}
+.terms > h1 {
+  font-weight: 900;
+  text-align: center;
+  font-size: 1.7rem;
+}
+.terms > h6 {
+  text-align: center;
+  color: #d4d4d4;
+  margin: 2rem 0 !important;
+}
+.terms > p {
+  margin: 1rem 0;
+  color: #d4d4d4;
+}

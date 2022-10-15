@@ -1,0 +1,65 @@
+.mainDiv {
+  background-color: #474646;
+  border-radius: 1rem;
+  margin: 1rem 0rem;
+  padding: 1rem;
+  display: flex;
+}
+.firstAddress {
+  border: 3px solid #d36b00;
+}
+.mainDiv > button,
+.mainDiv > button:hover {
+  background-color: transparent !important;
+  border-color: transparent !important;
+  padding: 0 !important;
+  color: #d36b00 !important;
+  align-self: flex-start;
+}
+.mainDiv > button > svg {
+  font-size: 1.5rem;
+  margin: 5px;
+}
+.addressInfoDiv {
+  flex-grow: 1;
+}
+.addressTitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.addressTitle > h6 {
+  color: white;
+  font-weight: 900;
+  font-size: 1rem;
+  margin-bottom: 0;
+}
+.addressTitle > button {
+  background-color: transparent !important;
+  border-color: white !important;
+  color: white;
+  padding: 0.2rem 0.5rem;
+}
+.addressTitle > button:hover {
+  background-color: #ffffff38 !important;
+  border-color: white !important;
+  color: white;
+}
+.addressTitle > button > svg {
+  margin-bottom: 3px;
+  margin-right: 5px;
+  font-size: 1rem;
+}
+.addressTitle > button > span {
+  font-size: 0.9rem;
+}
+
+.addressPara {
+  color: white;
+  font-size: 1rem;
+}
+@media screen and (max-width: 768px) {
+  .mainDiv {
+    width: 100% !important;
+  }
+}

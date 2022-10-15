@@ -1,0 +1,62 @@
+.amountDiv {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+.total {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  font-weight: bold;
+}
+.total > h6 {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.input {
+  background-color: #474646 !important;
+  color: white !important;
+  text-overflow: ellipsis;
+  cursor: text;
+}
+input.input::placeholder {
+  color: rgba(255, 255, 255, 0.562);
+}
+.inputInvalid {
+  border: 3px solid #d36b00 !important;
+}
+.inputInvalid::placeholder {
+  color: #d36b00 !important;
+}
+.invalidtext {
+  color: #d36b00;
+}
+.applyBtn {
+  width: 100%;
+  margin-top: 1rem;
+}
+.appliedCoupon {
+  background-color: #474646;
+  display: flex;
+  color: white;
+  width: min-content;
+  padding: 0.5rem;
+  border-radius: 8px;
+  align-items: center;
+  gap: 10px;
+  font-weight: bold;
+}
+.appliedCoupon > svg {
+  font-size: 1.5rem;
+}
+.closeBtn {
+  cursor: pointer;
+}
+.closeBtn:hover {
+  color: rgb(158, 158, 158);
+}
+.spinnerMsg {
+  margin-left: 5px;
+}
