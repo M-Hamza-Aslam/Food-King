@@ -96,7 +96,7 @@ const LoginForm = (props) => {
       notify("info", "OTP has been sent to your Number");
     }
   };
-  const googleSignInHandler = () => {
+  const googleSignInHandler = async () => {
     if (!navigator.onLine) {
       notify("error", "You have no internet connection");
       return;
