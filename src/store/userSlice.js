@@ -43,7 +43,7 @@ const userSlice = createSlice({
     updateOrders(state, actions) {
       state.user.orders = actions.payload.newOrderArr;
     },
-     changeLoadingState(state, actions) {
+    changeLoadingState(state, actions) {
       state.loading = actions.payload.loading;
     },
   },
