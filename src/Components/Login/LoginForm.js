@@ -101,7 +101,9 @@ const LoginForm = (props) => {
       notify("error", "You have no internet connection");
       return;
     }
-    signInWithGoogle();
+    dispatch(userActions.changeLoadingState({ loading: true }));
+    await signInWithGoogle();
+    dispatch(userActions.changeLoadingState({ loading: false }));
   };
 
   useEffect(() => {
