@@ -5,15 +5,17 @@ import { auth, OTPAuthentication } from "../../Data/firebase";
 import { useAuthState } from "react-firebase-hooks/auth";
 import { useNavigate } from "react-router-dom";
 import useInput from "../../Hooks/useInput";
-import { useSelector } from "react-redux";
+import { useDispatch,useSelector } from "react-redux";
 import { toast } from "react-toastify";
 import Spinner from "react-bootstrap/Spinner";
+import { userActions } from "../../store/userSlice";
 
 const OTPForm = (props) => {
   const navigate = useNavigate();
   const [user, loading] = useAuthState(auth);
   const [showSpinner, setShowSpinner] = useState(false);
   const userState = useSelector((state) => state.user);
+  const dispatch = useDispatch();
 
   const signInNotify = () => {
     toast.success("Signed in successfully!", {
@@ -54,7 +56,9 @@ const OTPForm = (props) => {
       return;
     }
     //authenticating and storing data into DataBase
+    dispatch(userActions.changeLoadingState({ loading: true }));
     await OTPAuthentication(OTPValue, userState.user.name);
+    dispatch(userActions.changeLoadingState({ loading: false }));
     setShowSpinner(false);
     OTPReset();
   };
