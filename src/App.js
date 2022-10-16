@@ -20,6 +20,7 @@ function App() {
   const [user, loading] = useAuthState(auth);
   const dispatch = useDispatch();
   const userUid = useSelector((state) => state.user.user.uid);
+  const isloading = useSelector((state) => state.user.loading);
   const location = useLocation();
 
   useEffect(() => {
@@ -30,14 +31,14 @@ function App() {
   }, [dispatch]);
 
   useEffect(() => {
-    if (user) {
+    if (user && !isloading) {
       const fetchingData = async () => {
         const userData = await fetchUserData(user.uid);
         dispatch(userActions.getUserData(userData));
       };
       fetchingData();
     }
-  }, [user, dispatch]);
+  }, [user, isloading, dispatch]);
   // on loading every page making scroll to top
   useEffect(() => {
     window.scrollTo(0, 0);
