@@ -7,15 +7,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 120px;
+  width: 160px;
 }
-.nonActiveCard {
-  border: 4px solid #d36b00;
-}
-.activeCard {
-  border: 4px solid white;
-}
-div.card > h6 {
+.card > h6 {
   color: white;
   text-align: center;
   margin-top: 0.7rem;
@@ -23,35 +17,43 @@ div.card > h6 {
   font-family: "Vollkorn", serif;
   font-size: 1.2rem;
 }
-div.card > img {
+.card > img {
   width: 150px;
   height: 123px;
 }
-/* on selecting partucular category */
-div.hide {
-  width: 170px;
+.nonActiveCard {
+  border: 4px solid #d36b00;
 }
-div.hide > img {
+.activeCard {
+  border: 4px solid white;
+}
+/* on selecting partucular category */
+.hide {
+  width: 200px;
+}
+.hide > img {
   display: none;
 }
-div.hide > h6 {
+.hide > h6 {
   margin: 0.7rem 1.3rem !important;
 }
 @media screen and (max-width: 768px) {
-  div.card > img {
+  .card {
+    width: 120px;
+  }
+  .card > img {
     width: 100px;
     height: 76px;
   }
-  div.card > h6 {
+  .card > h6 {
     font-size: 0.8rem;
     margin-top: 0.3rem;
     margin-bottom: 0;
   }
-  /* div.card {
-    width: 145px;
-  } */
-  div.hide > h6 {
-    /* font-size: 1.2rem; */
-    margin: 0.7rem 1.3rem;
+  .hide {
+    width: 170px;
+  }
+  .hide > h6 {
+    font-size: 0.8rem;
   }
 }
