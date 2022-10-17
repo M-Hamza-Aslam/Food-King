@@ -82,13 +82,13 @@ function App() {
                 <Route path="/category/:categoryId" element={<Category />} />
                 <Route
                   path="/login"
-                  element={
+                     element={
                     !user ? (
                       <Login />
-                    ) : location.hash === "" ? (
-                      <Navigate to="/" replace={true} />
-                    ) : (
+                    ) : location.hash === "#backtobucket" ? (
                       <Navigate to="/bucket" />
+                    ) : (
+                      <Navigate to="/" replace={true} />
                     )
                   }
                 />
