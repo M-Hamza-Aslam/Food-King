@@ -64,7 +64,7 @@ const InstructionsForm = () => {
     //update in database
     if (isChecked) {
       if (!user) {
-        navigate("/login");
+        navigate("/login#backtobucket");
         return;
       } else updateInstructionsInDB(user.uid, instruction);
     }
