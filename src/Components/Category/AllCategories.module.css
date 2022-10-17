@@ -1,5 +1,5 @@
 .categories {
-  justify-content: center;
+  justify-content: start;
   padding-bottom: 0.5rem;
 }
 /* on selecting partucular category */
@@ -9,36 +9,8 @@
   position: sticky;
   top: 110px;
 }
-@media screen and (max-width: 1400px) {
+@media screen and (min-width: 1400px) {
   .categories {
-    justify-content: start;
-    /* margin-left: calc((100vw - 1145px) / 2); */
-  }
-}
-@media screen and (max-width: 1200px) {
-  .categories {
-    justify-content: start;
-    /* margin-left: calc((100vw - 970px) / 2); */
-  }
-}
-@media screen and (max-width: 992px) {
-  .categories {
-    justify-content: start;
-    /* margin-left: calc((100vw - 740px) / 2); */
-  }
-}
-@media screen and (max-width: 768px) {
-  .categories {
-    justify-content: start;
-    /* margin-left: calc((100vw - 560px) / 2); */
-  }
-  .onHide {
-    top: 144px;
-  }
-}
-@media screen and (max-width: 576px) {
-  .categories {
-    justify-content: start;
-    /* margin-left: 8px; */
+    justify-content: space-between;
   }
 }
