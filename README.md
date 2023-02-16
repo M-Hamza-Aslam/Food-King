@@ -2,6 +2,10 @@
 
 Website of a restaurant to order food online.
 
+## Try This App Live
+
+https://fk-nu.vercel.app/
+
 ## 📱 Screen Shots
 
 <img src="https://github.com/M-Hamza-Aslam/Food-King/blob/main/ScreenShorts/SS1.jpeg?raw=true" width=500>  <img src="https://github.com/M-Hamza-Aslam/Food-King/blob/main/ScreenShorts/SS2.jpeg?raw=true" width=500> <img src="https://github.com/M-Hamza-Aslam/Food-King/blob/main/ScreenShorts/SS3.jpeg?raw=true" width=500> <img src="https://github.com/M-Hamza-Aslam/Food-King/blob/main/ScreenShorts/SS4.jpeg?raw=true" width=500> <img src="https://github.com/M-Hamza-Aslam/Food-King/blob/main/ScreenShorts/SS5.jpeg?raw=true" width=500>
